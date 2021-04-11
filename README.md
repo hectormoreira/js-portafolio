@@ -1,6 +1,9 @@
 # Webpack
 Proyecto y notas del [Curso de Webpack en Platzi](https://platzi.com/clases/webpack/)
 
+## Proyecto en vivo
+[js-porfolio](https://hectormoreira.github.io/js-portfolio/dist/)
+
 ## Conceptos
 - **Weback** es un module bundler, es un paquete de módulos estáticos para aplicaciones de JS modernas
 - **Webpack** construye un gráfico de dependencias que mapea cada módulo para con verlo en uno o más módulos
