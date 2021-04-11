@@ -17,6 +17,11 @@ npm install webpack webpack-cli -D
 - `npx webpack` ejecutar paquetes directamente de npm, este viene instalado de npm
 - `npx webpack --mode development` activar modo de desarrollo
 - `npx webpack --mode production` activar modo de producción
+- `npx webpack --mode production --config webpack.config.js` preparar el proyecto con las configuraciones
+- `webpack.config.js` contiene las configuraciones de webpack
+- `entry` es el punto de entrada
+- `output` es el punto de salida de los archivos, por estandar es la carpeta `dist`
+
 
 
 ## Recursos
