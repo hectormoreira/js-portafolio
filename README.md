@@ -13,6 +13,9 @@ Proyecto y notas del [Curso de Webpack en Platzi](https://platzi.com/clases/webp
 ```sh
 npm install webpack webpack-cli -D
 npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime -D
+npm install html-webpack-plugin -D
+npm install mini-css-extract-plugin css-loader -D
+npm install stylus stylus-loader -D
 ```
 - `npm install webpack webpack-cli -D` instalar webpack en desarrollo
 - `npx webpack` ejecutar paquetes directamente de npm, este viene instalado de npm
@@ -31,8 +34,13 @@ npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transfor
     - `.babelrc` contiene las configuraciones de **Babel**
     - `presets` para trabajar con js moderno
     - `babel-loader`
+- **CSS**
+    - `npm install mini-css-extract-plugin css-loader` plugin para reconocer css
+    - `npm install stylus stylus-loader` preprocesador stylus
 
 
 
 ## Recursos
 - [Web de Webpack](https://webpack.js.org/)
+- [html-loader](https://webpack.js.org/loaders/html-loader/)
+- [html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
