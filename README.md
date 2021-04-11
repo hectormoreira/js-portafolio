@@ -12,6 +12,7 @@ Proyecto y notas del [Curso de Webpack en Platzi](https://platzi.com/clases/webp
 ## Dependencias
 ```sh
 npm install webpack webpack-cli -D
+npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime -D
 ```
 - `npm install webpack webpack-cli -D` instalar webpack en desarrollo
 - `npx webpack` ejecutar paquetes directamente de npm, este viene instalado de npm
@@ -21,6 +22,15 @@ npm install webpack webpack-cli -D
 - `webpack.config.js` contiene las configuraciones de webpack
 - `entry` es el punto de entrada
 - `output` es el punto de salida de los archivos, por estandar es la carpeta `dist`
+- `rules` reglas para trabajar con diferentes archivos
+- `test` test declara que extensión de archivos aplicara el loader, usa regex
+- **Babel**
+    - Es un transcompilador de JavaScript que agarra el código ECMAScript 2015 en adelante y lo transforma en una versión que todos los navegadores anteriores lo puedan usar
+    - Babel permite hacer que el código JavaScript sea compatible con todos los navegadores
+    - Agregar al proyecto las siguientes dependencias `npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime`
+    - `.babelrc` contiene las configuraciones de **Babel**
+    - `presets` para trabajar con js moderno
+    - `babel-loader`
 
 
 
