@@ -1,0 +1,28 @@
+{
+  "name": "js-portfolio",
+  "version": "1.0.0",
+  "description": "Potfolio con webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectormoreira/js-portfolio.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "webpack"
+  ],
+  "author": "Hector Moreira <hector.moreirac@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hectormoreira/js-portfolio/issues"
+  },
+  "homepage": "https://github.com/hectormoreira/js-portfolio#readme",
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
