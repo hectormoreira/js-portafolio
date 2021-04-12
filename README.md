@@ -19,6 +19,7 @@ npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transfor
 npm install html-webpack-plugin -D
 npm install mini-css-extract-plugin css-loader -D
 npm install stylus stylus-loader -D
+npm install copy-webpack-plugin -D
 ```
 - `npm install webpack webpack-cli -D` instalar webpack en desarrollo
 - `npx webpack` ejecutar paquetes directamente de npm, este viene instalado de npm
@@ -40,7 +41,7 @@ npm install stylus stylus-loader -D
 - **CSS**
     - `npm install mini-css-extract-plugin css-loader` plugin para reconocer css
     - `npm install stylus stylus-loader` preprocesador stylus
-
+- `npm install copy-webpack-plugin -D` plugin para copiar archivos
 
 
 ## Recursos
