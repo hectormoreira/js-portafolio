@@ -20,6 +20,7 @@ npm install html-webpack-plugin -D
 npm install mini-css-extract-plugin css-loader -D
 npm install stylus stylus-loader -D
 npm install copy-webpack-plugin -D
+npm install url-loader file-loader -D
 ```
 - `npm install webpack webpack-cli -D` instalar webpack en desarrollo
 - `npx webpack` ejecutar paquetes directamente de npm, este viene instalado de npm
@@ -42,9 +43,12 @@ npm install copy-webpack-plugin -D
     - `npm install mini-css-extract-plugin css-loader` plugin para reconocer css
     - `npm install stylus stylus-loader` preprocesador stylus
 - `npm install copy-webpack-plugin -D` plugin para copiar archivos
+- `npm install url-loader file-loader -D` trabajando con fonts
 
 
 ## Recursos
 - [Web de Webpack](https://webpack.js.org/)
 - [html-loader](https://webpack.js.org/loaders/html-loader/)
 - [html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+- [asset-management Webpack](https://webpack.js.org/guides/asset-management/#loading-images)
+- [Font Ubuntu](http://google-webfonts-helper.herokuapp.com/fonts/ubuntu?subsets=cyrillic,latin)
