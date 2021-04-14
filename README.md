@@ -61,6 +61,8 @@ npm install webpack-bundle-analyzer -D
 - `npm install webpack-bundle-analyzer -D` verificar y analizar el tamaño del bundle final
 - `npx webpack --profile --json > stats.json` generar reporte en json
 - `npx webpack-bundle-analyzer stats.json` leer las estadísticas en una web
+- **source map** es un mapeo que se realiza entre el código original y el código transformado, tanto para archivos JavaScript como para archivos CSS. De esta forma podremos debuggear tranquilamente nuestro código.
+    - `webpack.config.js` y agregar la propiedad `devtool: "source-map"`
 
 
 
