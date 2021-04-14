@@ -19,13 +19,13 @@ Proyecto y notas del [Curso de Webpack en Platzi](https://platzi.com/clases/webp
 ## Dependencias
 ```sh
 npm install webpack webpack-cli -D
-npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime -D
+npm install babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime -D
 npm install html-webpack-plugin -D
 npm install mini-css-extract-plugin css-loader -D
 npm install stylus stylus-loader -D
 npm install copy-webpack-plugin -D
 npm install url-loader file-loader -D
-npm i css-minimizer-webpack-plugin terser-webpack-plugin -D
+npm install css-minimizer-webpack-plugin terser-webpack-plugin -D
 npm install dotenv-webpack -D
 npm install clean-webpack-plugin -D
 ```
@@ -62,3 +62,4 @@ npm install clean-webpack-plugin -D
 - [html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
 - [asset-management Webpack](https://webpack.js.org/guides/asset-management/#loading-images)
 - [Font Ubuntu](http://google-webfonts-helper.herokuapp.com/fonts/ubuntu?subsets=cyrillic,latin)
+- [Gitmoji](https://github.com/carloscuesta/gitmoji)
