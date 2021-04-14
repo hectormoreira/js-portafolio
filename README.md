@@ -11,6 +11,10 @@ Proyecto y notas del [Curso de Webpack en Platzi](https://platzi.com/clases/webp
 - Sirve para empaquetar nuestro código y trabajar en forma modular
 - **Loader** (transformador): Los loaders lo que hacen es decirle a webpack como tiene que transformar el código de un módulo en concreto. **Ejemplo** : Los loaders pueden transformar ficheros a JavaScript, o cargar CSS directamente en archivos JS, (si usas reactjs ya sabrás como)
 - **Plugins** (complementos): Nos van a ayudar a extender las funcionalidades con los loaders, añadir otras configuraciones. **Ejemplo**: hay un módulo llamado HTMLWebpackPlugin que este se encarga de crear un HTML personalizado que le inyecta todos los bundles finales que compilamos.
+- **hashes** Los recursos que se guardan en memoria cache suceden cuando el navegador entra a un sitio por primera vez detecta los recursos y los guarda. Por ello la siguiente vez sera mucho más rápido porque estarán en memoria
+- **Alias** nos permiten otorgar nombres paths específicos evitando los paths largos. Se configuran en `webpack.config.js` > `resolve` > `alias`
+- **Variables de entorno** Es importante considerar las variables de entorno va a ser un espacio seguro donde podemos guardar datos sensibles. Por ejemplo, subir llaves al repositorio no es buena idea cuando tienes un proyecto open source. Archivo `.env`
+- **modo watch** hace que nuestro proyecto se compile de forma automática. Es decir que está atento a cambios
 
 ## Dependencias
 ```sh
@@ -21,6 +25,9 @@ npm install mini-css-extract-plugin css-loader -D
 npm install stylus stylus-loader -D
 npm install copy-webpack-plugin -D
 npm install url-loader file-loader -D
+npm i css-minimizer-webpack-plugin terser-webpack-plugin -D
+npm install dotenv-webpack -D
+npm install clean-webpack-plugin -D
 ```
 - `npm install webpack webpack-cli -D` instalar webpack en desarrollo
 - `npx webpack` ejecutar paquetes directamente de npm, este viene instalado de npm
@@ -44,6 +51,9 @@ npm install url-loader file-loader -D
     - `npm install stylus stylus-loader` preprocesador stylus
 - `npm install copy-webpack-plugin -D` plugin para copiar archivos
 - `npm install url-loader file-loader -D` trabajando con fonts
+- `npm i css-minimizer-webpack-plugin terser-webpack-plugin -D` para minificar css
+- `npm install dotenv-webpack -D` para trabajar con variables de entorno
+- `npm install clean-webpack-plugin -D` limpiar la estructura y borrar archivos de builds antiguos
 
 
 ## Recursos
