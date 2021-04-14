@@ -2,8 +2,8 @@
 Proyecto y notas del [Curso de Webpack en Platzi](https://platzi.com/clases/webpack/)
 
 ## Proyecto en vivo
-[Netlify: js-portfolio](https://jpportfolio-webpack-hectormoreira.netlify.app/)
-[Github pages: js-porfolio](https://hectormoreira.github.io/js-portfolio/dist/)
+- [Netlify: js-portfolio](https://jpportfolio-webpack-hectormoreira.netlify.app/)
+- [Github pages: js-porfolio](https://hectormoreira.github.io/js-portfolio/dist/)
 
 ## Conceptos
 - **Weback** es un module bundler, es un paquete de módulos estáticos para aplicaciones de JS modernas
@@ -29,6 +29,8 @@ npm install url-loader file-loader -D
 npm install css-minimizer-webpack-plugin terser-webpack-plugin -D
 npm install dotenv-webpack -D
 npm install clean-webpack-plugin -D
+npm install webpack-dev-server -D
+npm install webpack-bundle-analyzer -D
 ```
 - `npm install webpack webpack-cli -D` instalar webpack en desarrollo
 - `npx webpack` ejecutar paquetes directamente de npm, este viene instalado de npm
@@ -55,6 +57,11 @@ npm install clean-webpack-plugin -D
 - `npm i css-minimizer-webpack-plugin terser-webpack-plugin -D` para minificar css
 - `npm install dotenv-webpack -D` para trabajar con variables de entorno
 - `npm install clean-webpack-plugin -D` limpiar la estructura y borrar archivos de builds antiguos
+- `npm install webpack-dev-server -D` server webpack de desarrollo, este server habilita el modo watch
+- `npm install webpack-bundle-analyzer -D` verificar y analizar el tamaño del bundle final
+- `npx webpack --profile --json > stats.json` generar reporte en json
+- `npx webpack-bundle-analyzer stats.json` leer las estadísticas en una web
+
 
 
 ## Recursos
